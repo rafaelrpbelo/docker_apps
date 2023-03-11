@@ -13,7 +13,6 @@ docker run \
   --hostname=$basename \
   --name=$basename \
   -e TZ="America/Toronto" \
-  -e PLEX_CLAIM="my-claim-token" \
   -e PLEX_CLAIM=$MY_PLEX_CLAIM \
   -e PLEX_UID=1000 \
   -e PLEX_GID=1000 \
